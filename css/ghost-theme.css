@@ -1,0 +1,713 @@
+/* ==========================================================================
+   Instagram Espião Theme - Dark Purple & Neon
+   Strictly Scoped to Offer Components (Home, CTA, Quiz, Upsells, Back-Redirect)
+   DO NOT affect Instagram clone flows (/feed, /direct, /chat, login loading)
+   ========================================================================== */
+
+/* 1. HOME OFFER SCOPE */
+.ghost-home-scope {
+  background-color: #0a0a1a !important;
+  background: radial-gradient(circle at 50% 0%, rgba(168,85,247,0.08) 0%, transparent 600px), #0a0a1a !important;
+  color: #FFFFFF !important;
+}
+
+.ghost-home-scope .glass-card {
+  background: #12122a !important;
+  border: 1.5px solid #C084FC !important;
+  box-shadow: 0 20px 45px -12px rgba(0,0,0,0.4), 0 1px 3px rgba(0,0,0,0.3) !important;
+  color: #FFFFFF !important;
+}
+
+/* High contrast typography in Home */
+.ghost-home-scope h1,
+.ghost-home-scope .text-gray-100 {
+  color: #FFFFFF !important;
+  letter-spacing: -0.02em !important;
+}
+
+.ghost-home-scope h2,
+.ghost-home-scope .text-gray-400,
+.ghost-home-scope p {
+  color: rgba(168,85,247,0.3) !important;
+}
+
+.ghost-home-scope .gradient-text {
+  background: linear-gradient(135deg, #FACC15 0%, #F97316 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+}
+
+.ghost-home-scope .typing-cursor {
+  color: #A855F7 !important;
+}
+
+/* Trust badges & small text */
+.ghost-home-scope svg[style*="color: #6B59D8"],
+.ghost-home-scope svg[style*="color: rgb(107, 89, 216)"],
+.ghost-home-scope svg[style*="color: #A855F7"] {
+  color: #A855F7 !important;
+}
+
+.ghost-home-scope span[style*="color: #f5f5f5"],
+.ghost-home-scope span[style*="color: rgb(245, 245, 245)"],
+.ghost-home-scope span[style*="color: rgba(168,85,247,0.3)"] {
+  color: rgba(168,85,247,0.3) !important;
+}
+
+/* Input & Search */
+.ghost-home-scope .input-dark {
+  background: #12122a !important;
+  color: #FFFFFF !important;
+  border: 1.5px solid rgba(168,85,247,0.3) !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3) !important;
+}
+
+.ghost-home-scope .input-dark:focus {
+  border-color: #A855F7 !important;
+  box-shadow: 0 0 0 3px rgba(168,85,247,0.2) !important;
+  outline: none !important;
+}
+
+.ghost-home-scope .input-dark::placeholder {
+  color: #64748B !important;
+}
+
+.ghost-home-scope .text-\[\#4a37b6\],
+.ghost-home-scope .text-\[\#A855F7\] {
+  color: #A855F7 !important;
+}
+
+.ghost-home-scope #usernameInput~button,
+.ghost-home-scope .btn-primary {
+  background: linear-gradient(135deg, #FACC15 0%, #F97316 100%) !important;
+  border-color: #A855F7 !important;
+  box-shadow: 0 10px 24px -4px rgba(168,85,247,0.45), inset 0 1px 0 rgba(255, 255, 255, 0.22) !important;
+  color: #FFFFFF !important;
+}
+
+.ghost-home-scope #usernameInput~button *,
+.ghost-home-scope .btn-primary * {
+  color: #FFFFFF !important;
+}
+
+/* Modal de confirmação de perfil */
+.ghost-home-scope .modal-overlay,
+.modal-overlay {
+  background: rgba(0,0,0,0.75) !important;
+  backdrop-filter: blur(8px) !important;
+}
+
+.ghost-home-scope .modal-overlay>div:not(canvas),
+.modal-overlay>div:not(canvas) {
+  background: #12122a !important;
+  border: 1px solid rgba(168,85,247,0.25) !important;
+  box-shadow: 0 25px 60px -15px rgba(0,0,0,0.55) !important;
+  color: #FFFFFF !important;
+}
+
+.ghost-home-scope .modal-overlay h3 {
+  background: linear-gradient(135deg, #FACC15 0%, #F97316 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.ghost-home-scope .modal-overlay .text-gray-300 {
+  color: rgba(168,85,247,0.3) !important;
+}
+
+.ghost-home-scope .modal-overlay .text-white {
+  color: #FFFFFF !important;
+}
+
+.ghost-home-scope .modal-overlay .text-gray-400 {
+  color: #64748B !important;
+}
+
+.ghost-home-scope .modal-overlay .text-gray-100 {
+  color: #334155 !important;
+}
+
+/* 2. CTA PAGE SCOPE */
+.cta-page {
+  background-color: #0a0a1a !important;
+  background: radial-gradient(circle at 50% 0%, rgba(168,85,247,0.08) 0%, transparent 600px), #0a0a1a !important;
+  color: #FFFFFF !important;
+}
+
+.cta-page .cta-timer-bar {
+  background: #12122a !important;
+  border-bottom: 1px solid rgba(168,85,247,0.25) !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4) !important;
+}
+
+.cta-page .cta-timer-bar p {
+  color: #FFFFFF !important;
+}
+
+.cta-page .cta-timer-button {
+  background: linear-gradient(135deg, #FACC15 0%, #F97316 100%) !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 6px 18px rgba(168,85,247,0.4) !important;
+}
+
+.cta-page .cta-timer-button * {
+  color: #FFFFFF !important;
+}
+
+.cta-page .cta-main-title {
+  color: #FFFFFF !important;
+}
+
+.cta-page .cta-gradient {
+  background: linear-gradient(135deg, #FACC15 0%, #F97316 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+}
+
+.cta-page .cta-profile-card {
+  background: #12122a !important;
+  border: 2px solid #A855F7 !important;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35), 0 0 0 3px rgba(168,85,247,0.15) !important;
+  color: #FFFFFF !important;
+}
+
+.cta-page .cta-profile-card-name,
+.cta-page .cta-profile-card-stat-number {
+  color: #FFFFFF !important;
+}
+
+.cta-page .cta-profile-card-stat-label {
+  color: #64748B !important;
+}
+
+.cta-page .cta-profile-card-bio {
+  color: rgba(168,85,247,0.3) !important;
+}
+
+.cta-page .cta-profile-card-badge {
+  background: rgba(168,85,247,0.15) !important;
+  border: 1px solid rgba(168,85,247,0.4) !important;
+}
+
+.cta-page .cta-badge-text,
+.cta-page .cta-badge-title,
+.cta-page .cta-badge-line-1,
+.cta-page .cta-badge-line-2 {
+  color: #7C3AED !important;
+}
+
+.cta-page .cta-features-section {
+  background: #12122a !important;
+  border: 1px solid rgba(168,85,247,0.25) !important;
+  box-shadow: 0 12px 35px rgba(0,0,0,0.4) !important;
+}
+
+.cta-page .cta-feature-item {
+  border-bottom: 1px solid rgba(168,85,247,0.25) !important;
+}
+
+.cta-page .cta-feature-title {
+  color: #FFFFFF !important;
+}
+
+.cta-page .cta-feature-desc {
+  color: rgba(168,85,247,0.3) !important;
+}
+
+.cta-page .cta-feature-icon {
+  color: #A855F7 !important;
+  stroke: #A855F7 !important;
+}
+
+.cta-page .cta-chat-preview {
+  background: #0a0a1a !important;
+  border: 1px solid rgba(168,85,247,0.25) !important;
+}
+
+.cta-page .cta-chat-header {
+  background: #12122a !important;
+  border-bottom: 1px solid rgba(168,85,247,0.25) !important;
+}
+
+.cta-page .cta-chat-name {
+  color: #FFFFFF !important;
+}
+
+.cta-page .cta-chat-status {
+  color: #64748B !important;
+}
+
+.cta-page .cta-message-bubble {
+  background: #12122a !important;
+  color: #FFFFFF !important;
+  border: 1px solid rgba(168,85,247,0.25) !important;
+}
+
+.cta-page .cta-message-sent .cta-message-bubble {
+  background: rgba(168,85,247,0.15) !important;
+  color: #7C3AED !important;
+  border: 1px solid rgba(168,85,247,0.4) !important;
+}
+
+.cta-page .cta-tool-title {
+  color: #FFFFFF !important;
+}
+
+.cta-page .cta-pricing-value-container {
+  background: #12122a !important;
+  border: 1.5px solid rgba(168,85,247,0.4) !important;
+  box-shadow: 0 12px 35px rgba(168,85,247,0.12) !important;
+}
+
+.cta-page .cta-pricing-amount,
+.cta-page .cta-pricing-cents {
+  background: linear-gradient(135deg, #A855F7, #7C3AED) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  color: #A855F7 !important;
+}
+
+.cta-page .cta-pricing-old-price {
+  color: #64748B !important;
+}
+
+.cta-page .cta-pricing-note-item {
+  color: rgba(168,85,247,0.3) !important;
+}
+
+.cta-page .cta-pricing-benefit-item span {
+  color: #FFFFFF !important;
+}
+
+.cta-page .cta-pricing-benefit-item svg {
+  color: #A855F7 !important;
+}
+
+.cta-page .cta-pricing-cta-button {
+  background: linear-gradient(135deg, #FACC15 0%, #F97316 100%) !important;
+  box-shadow: 0 10px 24px -4px rgba(168,85,247,0.45) !important;
+  color: #FFFFFF !important;
+}
+
+.cta-page .cta-pricing-cta-button * {
+  color: #FFFFFF !important;
+}
+
+.cta-page .cta-testimonials-section {
+  background: #12122a !important;
+  border: 1px solid rgba(168,85,247,0.25) !important;
+  box-shadow: 0 12px 35px rgba(0,0,0,0.4) !important;
+}
+
+.cta-page .cta-testimonials-title {
+  color: #FFFFFF !important;
+}
+
+.cta-page .cta-testimonial {
+  background: #0a0a1a !important;
+  border: 1px solid rgba(168,85,247,0.25) !important;
+  color: #FFFFFF !important;
+}
+
+.cta-page .cta-testimonial-header h4 {
+  color: #FFFFFF !important;
+}
+
+.cta-page .cta-testimonial-text {
+  color: rgba(168,85,247,0.3) !important;
+}
+
+.cta-page .cta-dot {
+  background: rgba(168,85,247,0.3) !important;
+}
+
+.cta-page .cta-dot.active {
+  background: #A855F7 !important;
+}
+
+.cta-page .cta-faq-new {
+  background: #12122a !important;
+  border: 1px solid rgba(168,85,247,0.25) !important;
+  box-shadow: 0 12px 35px rgba(0,0,0,0.4) !important;
+}
+
+.cta-page .cta-faq-new-title {
+  color: #FFFFFF !important;
+}
+
+.cta-page .cta-faq-new-item {
+  background: #0a0a1a !important;
+  border: 1px solid rgba(168,85,247,0.25) !important;
+}
+
+.cta-page .cta-faq-new-btn {
+  color: #FFFFFF !important;
+}
+
+.cta-page .cta-faq-new-icon {
+  color: #A855F7 !important;
+}
+
+.cta-page .cta-faq-new-answer p {
+  color: rgba(168,85,247,0.3) !important;
+}
+
+.cta-page .cta-guarantee-box {
+  background: #12122a !important;
+  border: 1px solid rgba(168,85,247,0.25) !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35) !important;
+}
+
+.cta-page .cta-guarantee-box h3 {
+  color: #FFFFFF !important;
+}
+
+.cta-page .cta-guarantee-box p {
+  color: rgba(168,85,247,0.3) !important;
+}
+
+.cta-page .cta-attention-alert {
+  background: rgba(168,85,247,0.15) !important;
+  border: 1px solid rgba(168,85,247,0.4) !important;
+  color: #7C3AED !important;
+}
+
+/* 3. QUIZ & FUNNEL EXTENSIONS */
+.ghostspy-ext-overlay {
+  background: radial-gradient(circle at top, rgba(168,85,247,0.1), transparent 45%), rgba(248, 250, 252, 0.96) !important;
+  backdrop-filter: blur(14px) !important;
+}
+
+.ghostspy-ext-shell {
+  color: #FFFFFF !important;
+}
+
+.ghostspy-ext-card {
+  background: #12122a !important;
+  border: 1px solid rgba(168,85,247,0.25) !important;
+  box-shadow: 0 25px 60px -15px rgba(0,0,0,0.45), 0 1px 3px rgba(0,0,0,0.35) !important;
+}
+
+.ghostspy-ext-title {
+  color: #FFFFFF !important;
+}
+
+.ghostspy-ext-subtitle {
+  color: #64748B !important;
+}
+
+.ghostspy-ext-progress {
+  color: #64748B !important;
+}
+
+.ghostspy-ext-progress-bar {
+  background: rgba(168,85,247,0.25) !important;
+}
+
+.ghostspy-ext-progress-fill {
+  background: linear-gradient(135deg, #A855F7, #7C3AED) !important;
+}
+
+.ghostspy-ext-option {
+  background: #12122a !important;
+  border: 1.5px solid rgba(168,85,247,0.25) !important;
+  color: #FFFFFF !important;
+}
+
+.ghostspy-ext-option:hover {
+  border-color: #C084FC !important;
+  background: rgba(168,85,247,0.15) !important;
+}
+
+.ghostspy-ext-option.active {
+  background: rgba(168,85,247,0.15) !important;
+  border-color: #A855F7 !important;
+  box-shadow: 0 0 0 1px #A855F7, 0 6px 16px rgba(168,85,247,0.15) !important;
+}
+
+.ghostspy-ext-option-label {
+  color: #FFFFFF !important;
+}
+
+.ghostspy-ext-option small {
+  color: #64748B !important;
+}
+
+.ghostspy-ext-option-icon {
+  background: #0a0a1a !important;
+  border: 1px solid rgba(168,85,247,0.3) !important;
+  color: #A855F7 !important;
+}
+
+.ghostspy-ext-option.active .ghostspy-ext-option-icon {
+  background: linear-gradient(135deg, #A855F7, #7C3AED) !important;
+  border-color: #A855F7 !important;
+  color: #FFFFFF !important;
+}
+
+.ghostspy-ext-option.active .ghostspy-ext-option-check {
+  background: #A855F7 !important;
+  border-color: #A855F7 !important;
+}
+
+.ghostspy-ext-btn-secondary {
+  color: #334155 !important;
+  background: #F1F5F9 !important;
+  border: 1px solid rgba(168,85,247,0.25) !important;
+}
+
+/* 4. UPSELL PAGES (up/ & up/back/) */
+.card-dpgm {
+  background: #12122a !important;
+  border: 1.5px solid #C084FC !important;
+  border-radius: clamp(16px, 5vw, 24px) !important;
+  box-shadow: 0 12px 35px rgba(0,0,0,0.4) !important;
+  color: #FFFFFF !important;
+}
+
+.title-dpgm, .main-title-firewall, .titulo-medio, .titulo-medio-grande {
+  color: #FFFFFF !important;
+}
+
+.subtitle-firewall, .subtitle-dpgm {
+  color: rgba(168,85,247,0.3) !important;
+}
+
+.pricing-current {
+  background: linear-gradient(135deg, #FACC15 0%, #F97316 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.pricing-old {
+  color: #64748B !important;
+}
+
+.benefit-item {
+  background: #0a0a1a !important;
+  border: 1px solid rgba(168,85,247,0.25) !important;
+  color: #FFFFFF !important;
+}
+
+.benefit-item svg {
+  color: #A855F7 !important;
+}
+
+.btn-dpgm {
+  background: linear-gradient(135deg, #FACC15 0%, #F97316 100%) !important;
+  box-shadow: 0 10px 24px -4px rgba(168,85,247,0.4) !important;
+  color: #FFFFFF !important;
+}
+
+.btn-dpgm * {
+  color: #FFFFFF !important;
+}
+
+.badge-dpgm, .badge-primary, .badge-diamond, .badge-premium {
+  background: rgba(168,85,247,0.15) !important;
+  color: #A855F7 !important;
+  border: 1px solid rgba(168,85,247,0.4) !important;
+  box-shadow: none !important;
+}
+
+.countdown-dpgm {
+  background: rgba(168,85,247,0.15) !important;
+  border: 1px solid rgba(168,85,247,0.4) !important;
+}
+
+.countdown-number {
+  color: #A855F7 !important;
+}
+
+.countdown-label {
+  color: #7C3AED !important;
+}
+
+.dropdown-trigger,
+.input-dpgm,
+.input-group {
+  background: #12122a !important;
+  border: 1.5px solid rgba(168,85,247,0.3) !important;
+  color: #FFFFFF !important;
+}
+
+.input-dpgm::placeholder,
+.input-group input::placeholder {
+  color: #64748B !important;
+}
+
+.dropdown-menu {
+  background: #12122a !important;
+  border: 1px solid rgba(168,85,247,0.25) !important;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.45) !important;
+}
+
+.dropdown-item {
+  color: #FFFFFF !important;
+}
+
+.dropdown-item:hover {
+  background: rgba(168,85,247,0.15) !important;
+  color: #A855F7 !important;
+}
+
+.input-group {
+  background: #12122a !important;
+  border: 1.5px solid rgba(168,85,247,0.3) !important;
+}
+
+.input-group input {
+  color: #FFFFFF !important;
+}
+
+.footer-dpgm {
+  border-top: 1px solid rgba(168,85,247,0.25) !important;
+}
+
+.footer-text, .footer-link {
+  color: #64748B !important;
+}
+
+/* Regras adicionais de Upsells (Firewall & Câmera) */
+.alert-dpgm.alert-warning {
+  color: #7C3AED !important;
+  background: rgba(168,85,247,0.15) !important;
+  border: 1.5px solid rgba(168,85,247,0.4) !important;
+}
+
+.alert-dpgm.alert-warning strong {
+  color: #0A3F7A !important;
+}
+
+.card-dpgm .text-white,
+.card-dpgm strong.text-white,
+.card-dpgm div.text-white {
+  color: #FFFFFF !important;
+}
+
+.card-dpgm .text-\[\#ab58f4\],
+.card-dpgm svg.text-\[\#ab58f4\],
+.card-dpgm .text-\[\#6B59D8\],
+.card-dpgm svg.text-\[\#6B59D8\] {
+  color: #A855F7 !important;
+}
+
+.card-dpgm .w-10.h-10 {
+  background-color: rgba(168,85,247,0.15) !important;
+  border: 1px solid rgba(168,85,247,0.4) !important;
+}
+
+.card-dpgm .bg-\[rgba\(171\,88\,244\,0\.15\)\],
+.card-dpgm .bg-\[rgba\(171\,88\,244\,0\.1\)\] {
+  background-color: rgba(168,85,247,0.15) !important;
+}
+
+.card-dpgm .border-\[rgba\(171\,88\,244\,0\.3\)\],
+.card-dpgm .border-\[\#ab58f4\] {
+  border-color: rgba(168,85,247,0.4) !important;
+}
+
+/* Barra de progresso dos upsells */
+.progress-bar-dpgm {
+  background: rgba(168,85,247,0.25) !important;
+}
+
+.progress-bar-fill,
+.progress-bar-fill-dynamic {
+  background: linear-gradient(135deg, #FACC15 0%, #F97316 100%) !important;
+}
+
+/* ==========================================================================
+   Loadings e Spinners do Front-end (Clean White & Ghost Blue)
+   ========================================================================== */
+
+/* Cores de borda do spinner roxo antigo -> Roxo Instagram Espião */
+.border-purple-500,
+[class*="border-purple-500"] {
+  border-color: #A855F7 !important;
+  border-top-color: transparent !important;
+}
+
+.animate-spin.border-purple-500,
+.animate-spin[class*="border-purple"] {
+  border-color: #A855F7 !important;
+}
+
+.animate-spin.border-t-2.border-b-2 {
+  border-top-color: #A855F7 !important;
+  border-bottom-color: #A855F7 !important;
+  border-left-color: transparent !important;
+  border-right-color: transparent !important;
+}
+
+/* Eliminar backgrounds pretos de loading ou fallbacks de rota
+   (apenas estilos inline das páginas de oferta; as classes bg-[#040607]/bg-[#0b1014]
+   NÃO são mais forçadas aqui porque o feed usa tema nativo escuro do Instagram) */
+div[style*="background: #040607"],
+div[style*="background:#040607"],
+div[style*="background: rgb(4, 6, 7)"] {
+  background-color: #0a0a1a !important;
+}
+
+/* Classe NOVA para fundos claros de loading/fallback no tema Ghost.
+   Usar esta classe em vez de recolorir bg-[#040607]/bg-[#0b1014] compartilhados. */
+.bg-ghost-light {
+  background-color: #0a0a1a !important;
+}
+
+/* Container de status de quebra de criptografia / login da Home
+   (o campo de senha é um <input>, não div, por isso o seletor extra) */
+div[style*="background: rgb(12, 16, 17)"],
+input[style*="background: rgb(12, 16, 17)"] {
+  background: #12122a !important;
+  border-color: rgba(168,85,247,0.25) !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.35) !important;
+}
+
+div[style*="background: rgb(12, 16, 17)"] p {
+  color: #FFFFFF !important;
+}
+
+/* Tela de login/carregamento da Home (antes do feed) — o container inline
+   rgb(4, 6, 7) é forçado para claro acima; os textos nativos claros da tela
+   escura precisam ficar escuros APENAS dentro dela (classes compartilhadas
+   como .text-gray-100 permanecem intactas para o resto do app) */
+div[style*="background: rgb(4, 6, 7)"] .text-gray-100,
+div[style*="background: rgb(4, 6, 7)"] input {
+  color: #FFFFFF !important;
+}
+
+div[style*="background: rgb(4, 6, 7)"] input::placeholder {
+  color: #64748B !important;
+}
+
+div[style*="background: rgb(4, 6, 7)"] .text-gray-400 {
+  color: rgba(168,85,247,0.3) !important;
+}
+
+/* Logo branco do Instagram some no fundo claro — escurecer apenas nesta tela */
+div[style*="background: rgb(4, 6, 7)"] img[src*="logo-insta"] {
+  filter: brightness(0.25);
+}
+
+/* Ícones de spinner */
+svg.animate-spin:not(button *):not(.btn-primary *) {
+  color: #A855F7 !important;
+}
+
+button svg.animate-spin,
+.btn-primary svg.animate-spin {
+  color: #FFFFFF !important;
+}
+
+/* Textos informativos de loading (ex: 'Verificando...') — apenas em fallbacks
+   inline claros; NÃO usar seletor global .min-h-screen p.text-gray-500 porque
+   o feed e telas escuras usam text-gray-500 sobre fundo escuro */
+div[style*="background: #0a0a1a"] p.text-gray-500,
+div[style*="background:#0a0a1a"] p.text-gray-500 {
+  color: #334155 !important;
+  font-weight: 600 !important;
+}
