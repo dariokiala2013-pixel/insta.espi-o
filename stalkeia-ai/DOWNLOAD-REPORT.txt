@@ -1,0 +1,46 @@
+Download attempt from https://stalkeia.ai
+
+FAIL /assets/BlockedOverlay-C33PfAmi.js: ValueError: unexpected content-type/content: text/html; charset=UTF-8, 12763 bytes
+OK /assets/BlockedPopup-RPTI6beX.js (1874 bytes)
+OK /assets/MatrixCanvas-gBTz1CWi.js (1387 bytes)
+OK /assets/PreviewBanner-DpTiVZze.js (3038 bytes)
+OK /assets/api-bupDNBJY.js (31274 bytes)
+OK /assets/chat._chatId-B0W9ilwe.js (122185 bytes)
+OK /assets/chunk-EPOLDU6W-CkoexLYk.js (124970 bytes)
+OK /assets/context-DVPZRWQf.js (32204 bytes)
+OK /assets/cta-ghost-final.js (63939 bytes)
+OK /assets/direct-CrUBYN4v.js (52848 bytes)
+OK /assets/entry.client-DD9rnkTc.js (190412 bytes)
+OK /assets/feed-CMXMV7Sa.js (103093 bytes)
+FAIL /assets/ghostspy-v2-Btn2Cci_.js: ValueError: unexpected content-type/content: text/html; charset=UTF-8, 12763 bytes
+FAIL /assets/ghostspy-v2-backredirect-qi9BgUjG.js: ValueError: unexpected content-type/content: text/html; charset=UTF-8, 12763 bytes
+FAIL /assets/ghostspy-v2-results-DV0bmpYy.js: ValueError: unexpected content-type/content: text/html; charset=UTF-8, 12763 bytes
+OK /assets/home-DntHRvCI.js (78717 bytes)
+FAIL /assets/in-ghostspy-CAdYZdF1.js: ValueError: unexpected content-type/content: text/html; charset=UTF-8, 12763 bytes
+FAIL /assets/in-ghostspy-results-CKAqhJ8E.js: ValueError: unexpected content-type/content: text/html; charset=UTF-8, 12763 bytes
+FAIL /assets/inicio1-CtGIMaOY.js: ValueError: unexpected content-type/content: text/html; charset=UTF-8, 12763 bytes
+FAIL /assets/inicio2-C23IzFzg.js: ValueError: unexpected content-type/content: text/html; charset=UTF-8, 12763 bytes
+FAIL /assets/inicio3-BkXNK0E6.js: ValueError: unexpected content-type/content: text/html; charset=UTF-8, 12763 bytes
+FAIL /assets/inicio4-Cc3keAZ6.js: ValueError: unexpected content-type/content: text/html; charset=UTF-8, 12763 bytes
+OK /assets/manifest-958455cb.js (7971 bytes)
+OK /assets/notifications-CdaT6FEO.js (9619 bytes)
+OK /assets/random-Bp_wQn4x.js (2494 bytes)
+OK /assets/root-VdaBH0Ih.js (26770 bytes)
+OK /assets/root-zQuPsh3d.css (136186 bytes)
+OK /assets/useNavigateWithUTM-1Hi9sm_B.js (566 bytes)
+OK /assets/utm-ClCK1WqV.js (9986 bytes)
+FAIL /assets/white-page-BfOhVZOs.js: ValueError: unexpected content-type/content: text/html; charset=UTF-8, 12763 bytes
+OK /images/avatars/avatar-depoimento-1.jpg (5242 bytes)
+OK /images/avatars/avatar-depoimento-2.jpg (3539 bytes)
+OK /images/avatars/avatar-depoimento-3.jpg (3615 bytes)
+OK /images/avatars/fallback/av-fallback-1.jpg (4732 bytes)
+OK /images/avatars/perfil-sem-foto.jpeg (1848 bytes)
+OK /images/logos/ghostspy-logo.png (301793 bytes)
+OK /images/logos/logo-vert-transparente.png (301793 bytes)
+OK /images/screenshots/chat2.nudes1.png (145715 bytes)
+OK /images/screenshots/chat5.1a.png (5401 bytes)
+OK /images/screenshots/fotoblur1.jpg (24932 bytes)
+OK /images/screenshots/fundomaps.png (280661 bytes)
+OK /images/screenshots/nudes1-chat1.jpg (92163 bytes)
+OK /images/screenshots/nudes1-chat2.jpg (40798 bytes)
+OK /images/screenshots/pack1.1.chat2.png (66307 bytes)
