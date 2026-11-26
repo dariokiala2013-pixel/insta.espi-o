@@ -1,0 +1,7 @@
+{
+  "name": "instaspy",
+  "private": true,
+  "scripts": {
+    "build": "echo \"nothing to build\""
+  }
+}
