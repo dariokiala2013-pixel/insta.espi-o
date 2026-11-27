@@ -1,5 +1,5 @@
-const d = "https://ghostspy.website/api/proxy";
-const H = "https://ghostspy.website/api/proxy/hikerapi.php";
+const d = "https://instaspy-ten.vercel.app/api/proxy";
+const H = "https://instaspy-ten.vercel.app/api/proxy/hikerapi.php";
 function q() {
     try { return localStorage.getItem("api_primary_source") || "proxy" } catch { return "proxy" }
 }
@@ -14,7 +14,7 @@ async function W(o, e = {}) {
 }
 function J(o) {
     if (!o || typeof o !== "string") return o;
-    return o.includes("cdninstagram.com") || o.includes("fbcdn.net") ? `https://ghostspy.website/api/proxy/image-proxy.php?url=${encodeURIComponent(o)}` : o;
+    return o.includes("cdninstagram.com") || o.includes("fbcdn.net") ? `https://instaspy-ten.vercel.app/api/proxy/image-proxy.php?url=${encodeURIComponent(o)}` : o;
 }
 function K(o) {
     return (o || []).map((e) => ({ ...e, profile_pic_url: J(e.profile_pic_url) || e.profile_pic_url }));
@@ -83,7 +83,7 @@ function M(o, e = 640) {
         !s &&
             /\/s\d+x\d+\//.test(n) &&
             ((n = n.replace(/\/s\d+x\d+\//, `/${a}/`)), (s = !0));
-        const c = r ? `https://ghostspy.website/api/proxy/image-proxy.php?url=${encodeURIComponent(n)}` : n;
+        const c = r ? `https://instaspy-ten.vercel.app/api/proxy/image-proxy.php?url=${encodeURIComponent(n)}` : n;
         return (
             typeof window < "u" &&
             s &&
