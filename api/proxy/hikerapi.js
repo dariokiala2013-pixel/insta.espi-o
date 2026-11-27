@@ -1,5 +1,4 @@
 // Vercel Serverless Function — HikerAPI Proxy
-// Substitui ghostspy.website/api/proxy/hikerapi.php
 
 function corsHeaders(origin) {
   return {
@@ -11,29 +10,27 @@ function corsHeaders(origin) {
   };
 }
 
-export default async function handler(req, res) {
-  const origin = req.headers.origin || req.headers.referer || "*";
-  const headers = corsHeaders(origin);
+function writeResponse(res, status, payload, extra = {}) {
+  const hdr = { ...corsHeaders(), ...extra };
+  res.writeHead(status, hdr);
+  res.end(payload !== null ? JSON.stringify(payload) : "");
+}
 
+export default async function handler(req, res) {
   if (req.method === "OPTIONS") {
-    return res.status(200).set(headers).end();
+    return writeResponse(res, 200, null);
   }
 
-  // HikerAPI requer uma chave de API válida. 
-  // Se tiveres uma, define HIKERAPI_KEY nas variáveis de ambiente do Vercel.
   const apiKey = process.env.HIKERAPI_KEY;
-
   if (!apiKey) {
-    // Sem chave HikerAPI, retorna erro sugestivo
-    return res.status(503).set(headers).json({
-      error: "HikerAPI not configured. Set HIKERAPI_KEY environment variable in Vercel.",
+    return writeResponse(res, 503, {
+      error: "HikerAPI not configured. Set HIKERAPI_KEY in Vercel env.",
     });
   }
 
-  const { path, ...queryParams } = req.query;
-
+  const { path, ...queryParams } = req.query || {};
   if (!path) {
-    return res.status(400).set(headers).json({ error: "Missing path parameter" });
+    return writeResponse(res, 400, { error: "Missing path parameter" });
   }
 
   try {
@@ -54,9 +51,11 @@ export default async function handler(req, res) {
     clearTimeout(timeout);
 
     const data = await response.json();
-    return res.status(response.status).set(headers).json(data);
+    return writeResponse(res, response.status, data);
   } catch (e) {
     console.error("HikerAPI proxy error:", e);
-    return res.status(500).set(headers).json({ error: e.message || "HikerAPI request failed" });
+    return writeResponse(res, 500, {
+      error: e.message || "HikerAPI request failed",
+    });
   }
 }
